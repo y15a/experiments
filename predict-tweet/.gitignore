@@ -1,0 +1,4 @@
+*.chainermodel
+.python-version
+*.pyc
+tweets.txt
