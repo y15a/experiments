@@ -1,5 +1,5 @@
-# chainer-char-rnn
-karpathy's [char-rnn](https://github.com/karpathy/char-rnn) implementation by [Chainer](https://github.com/pfnet/chainer)
+# predict-tweet
+Based on yusuketomoto's [chainer-char-rnn](https://github.com/yusuketomoto/chainer-char-rnn)
 
 
 ## Requirement
@@ -20,6 +20,10 @@ The `--data_dir` flag specifies the dataset to use. By default it is set to `dat
 
 **Your own data**: If you'd like to use your own data create a single file `input.txt` and place it into a folder in `data/`. For example, `data/some_folder/input.txt`.
 
+## Tweets Data
+Data for the entire collection of your past tweets can be found on [Twitter](https://twitter.com/settings/account). When the data is ready, download it to a suitable location.
+
+It is a zipped CSV file, containing metadata such as timestamp as well as the tweet body. To make the text data compatible with train.py, perform some processing so that you get one single file containing all of your tweets, possibly line-separated.
 
 
 ## Sampling
